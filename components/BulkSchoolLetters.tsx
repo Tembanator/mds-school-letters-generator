@@ -180,7 +180,7 @@ const LetterPage = ({ learner, settings }: LetterPageProps) => (
         <Text style={{ fontFamily: "Times-Bold" }}>
           MATER DOLOROSA HIGH SCHOOL
         </Text>
-        <Text>P.O.Box 62, Mbabane H100</Text>
+        <Text>P.O.Box 62,  Mbabane H100</Text>
         <Text>Tel: (+268) 7633 2667</Text>
         <Text style={{ marginTop: 10, fontFamily: "Times-Bold" }}>
           PRINCIPAL
