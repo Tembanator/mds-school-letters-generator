@@ -127,7 +127,7 @@ function getOrdinalSuffix(n: string): string {
 const LetterPage = ({ learner, settings }: LetterPageProps) => (
   <Page size="A4" style={styles.page}>
     <View style={styles.header}>
-      <Image style={{ width: 400, height: 100 }} src="/letterhead.png" />
+      <Image style={{ width: 400, height: 100 }} src="/letterhead.jpg" />
     </View>
 
     <View style={styles.horizontalRule} />
@@ -170,7 +170,7 @@ const LetterPage = ({ learner, settings }: LetterPageProps) => (
 
     <View style={styles.signatureSection}>
       <View>
-        <Image style={{ width: 70, height: 20 }} src="/letterhead.png" />
+        <Image style={{ width: 70, height: 20 }} src="/signature.jpg" />
         <Text style={{ fontFamily: "Times-Bold", marginTop: 5 }}>
           S. V. NXUMALO
         </Text>
@@ -181,7 +181,7 @@ const LetterPage = ({ learner, settings }: LetterPageProps) => (
           MATER DOLOROSA HIGH SCHOOL
         </Text>
         <Text>P.O.Box 62, Mbabane H100</Text>
-        <Text>Tel: (+268) 2404 3082</Text>
+        <Text>Tel: (+268) 7633 2667</Text>
         <Text style={{ marginTop: 10, fontFamily: "Times-Bold" }}>
           PRINCIPAL
         </Text>
