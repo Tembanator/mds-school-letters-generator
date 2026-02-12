@@ -127,7 +127,7 @@ function getOrdinalSuffix(n: string): string {
 const LetterPage = ({ learner, settings }: LetterPageProps) => (
   <Page size="A4" style={styles.page}>
     <View style={styles.header}>
-      <Image style={{ width: 400, height: 100 }} src="/letterhead.jpg" />
+      <Image style={{ width: 500, height: 100 }} src="/letterhead.png" />
     </View>
 
     <View style={styles.horizontalRule} />
